@@ -15,14 +15,35 @@
                 padding: 6px;
                 height: 60px;
                 flex-shrink: 0;
-                box-sizing: border-box;                
+                box-sizing: border-box;    
+                color: #222;        
             }
             .about-text {
                 display: inline-block;
                 padding: 5px;
                 margin-left: 15px;
-                margin-right: 5px;
-                color: #222;
+                margin-right: 5px;                
+            }
+            .store-text {
+                display: inline-block;
+                padding: 5px;
+                margin: 5px;
+            }
+            .head-container {
+                display: flex;
+                float: right;
+                justify-content: flex-end;
+                padding: 0px 4px;
+                align-items: center;
+                min-width: 320px;
+                position: relative;
+                height: 48px;
+                margin-left: auto;
+            }
+        
+            a:hover {
+                text-decoration: underline;
+                cursor: pointer;
             }
             .container {
             display: grid;
@@ -38,6 +59,9 @@
     <body>
         <div class="header">
             <a class="about-text">About</a>
+            <a class="store-text">Store</a>
+            <div class="head-container">
+            </div>
         </div>
         <div class="container">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
