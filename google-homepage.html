@@ -51,19 +51,41 @@
                 height: 32px;
                 width: 32px;
                 z-index: 0;
+                padding-right: 4px;
+                padding-left: 4px;
+            }
+            .apps-container {
+                display: inline-block;
+                padding: 4px;
+                vertical-align: middle;
+                height: 48px;
+                width: 48px;
+            }
+            .google-apps {
+                padding: 14px 8px 8px 8px;
+                display: inline-block;
+                outline: none;
+                vertical-align: middle;
+                box-sizing: border-box;
+                height: 40px;
+                width: 40px;
+                position: relative;
+                cursor: pointer;
+                color: #5f6368;
+                opacity: 1;
             }
             a:hover {
                 text-decoration: underline;
                 cursor: pointer;
             }
             .container {
-            display: grid;
-            position: relative;
-            border-color:black;
-            margin-top: 30%;
-            margin-bottom: 30%;
-            margin-left: 20%;
-            margin-right: 40%;
+                display: grid;
+                position: relative;
+                border-color:black;
+                margin-top: 30%;
+                margin-bottom: 30%;
+                margin-left: 20%;
+                margin-right: 40%;
             }
         </style>
     </head>
@@ -72,6 +94,12 @@
             <a class="about-text">About</a>
             <a class="store-text">Store</a>
             <div class="head-container">
+                <div class="apps-container">
+                <svg class="google-apps" focusable="false" viewBox="0 0 21 21">
+                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                    </path>
+                </svg>
+                </div>
                 <img class="profile-picture" src="https://lh3.googleusercontent.com/ogw/ADea4I7CZ85krQM_kJdSxuo0ZQ0bhRQgQATYnVacTX3N=s64-c-mo" alt="Profile Picture">
             </div>
         </div>
