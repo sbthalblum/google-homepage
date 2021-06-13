@@ -91,15 +91,31 @@
                 cursor: pointer;
             }
             .container {
-                display: grid;
-                position: relative;
-                border-color:black;
-                margin-top: 30%;
-                margin-bottom: 30%;
-                margin-left: 20%;
-                margin-right: 40%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                min-height: 92px;
+                max-height: 290px;
+                flex-shrink: 0;
+                box-sizing: border-box;
             }
-            
+            .google-image-container {
+                max-height: 92px;
+                position: relative;
+                height: 100%;
+                margin-top: 195px;
+                display: block;
+            }
+            .google-image {
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: contain;
+                object-position: center bottom;
+                width: auto;
+                height: 92px;
+                aspect-ratio: auto 272 / 92;
+            }
+
         </style>
     </head>
     <body>
@@ -118,7 +134,9 @@
             </div>
         </div>
         <div class="container">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <div class="google-image-container">
+                <img class="google-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
          </div>
     </body>
 </html>
