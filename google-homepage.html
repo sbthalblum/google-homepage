@@ -255,11 +255,13 @@
                 justify-content: center;
                 flex: 1;
                 width: auto;
+                max-height: 50px;
             }
             .footer2 {
                 display: flex;
                 flex: 1;
                 width: auto;
+                justify-content: flex-start;
             }
             .carbon-text {
                 color: #70757a;
@@ -272,6 +274,27 @@
                 height:14px;
                 margin-right: 4px;
                 margin-top: 11px;
+            }
+            .footer-space {
+                flex: 1.5;
+            }
+            .footer-space2 {
+                flex: 1.75;
+            }
+            .bottom-links {
+                flex: 1;
+                text-align: center;
+                font-size: 14px;
+                padding-top: 32px;
+                text-decoration: none;
+            }
+            .bottom-links-a{
+                text-decoration: none;
+                color: #70757a;
+            }
+            .bottom-links:hover {
+                text-decoration: underline;
+                cursor: pointer;
             }
         </style>
     </head>
@@ -332,7 +355,15 @@
                 </a>
             </div>
              <div class="footer2">
-
+                <div class="footer-space"></div>
+                <div class="bottom-links"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="bottom-links-a">Advertising</a></div>
+                <div class="bottom-links"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" class="bottom-links-a">Business</a></div>
+                <div class="bottom-links"><a href="https://google.com/search/howsearchworks/?fg=1" class="bottom-links-a">How Search Works</a></div>
+                <div class="footer-space2"></div>
+                <div class="bottom-links"><a href="https://policies.google.com/privacy?hl=en&fg=1" class="bottom-links-a">Privacy</a></div>
+                <div class="bottom-links"><a href="https://policies.google.com/terms?hl=en&fg=1" class="bottom-links-a">Terms</a></div>
+                <div class="bottom-links">Settings</div>
+                <div class="footer-space"></div>
              </div>
          </div>
     </body>
