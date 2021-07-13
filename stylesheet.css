@@ -1,0 +1,285 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;    
+    color: #222;        
+}
+.about-text {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 5px;                
+}
+.store-text {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.head-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 4px;
+    align-items: center;
+    min-width: 320px;
+    position: relative;
+    height: 48px;
+    margin-left: auto;
+}
+.profile-picture {
+    background-size: 32px 32px;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.apps-container {
+    display: inline-block;
+    padding: 4px 0px 4px 4px;
+    vertical-align: middle;
+    height: 48px;
+    width: 48px;
+}
+.google-apps {
+    padding: 14px 8px 8px 8px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+    color: #5f6368;
+    opacity: 1;
+}
+.images-text{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.gmail-text {
+    display: inline-block;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 5px;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.google-image-container {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: 195px;
+    display: block;
+}
+.google-image {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    height: 92px;
+}
+.container2 {
+    display: flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 160px;
+    justify-content: center;
+}
+.contain {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.container3 {
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+.search-bar-container{
+    display: flex;
+    width: 584px;
+    height: 44px;
+    border-style: solid;
+    border-color:lightgrey;
+    border-width: 1px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+}
+.search-magnify-box {
+    display: flex;
+    align-items: center;
+    height: auto;
+    float: right;
+    width: 52px;
+    min-width: 50px;
+}
+.magnify {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
+.search-bar {
+    height: 34px;
+    width: 487px;
+    min-width: 487px;
+    margin-top: auto;
+    margin-bottom: auto;
+    outline: none;
+    border-style: hidden;
+    font-size: 16px;
+}
+.microphone-box {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+.microphone {
+    height: 24px;
+    width: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 2px;
+}
+.container4 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.google-buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    margin: 11px 5px 0px 5px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.google-buttons:hover {
+    border: 1.5px solid rgb(222 212 212);
+}
+.container5 {
+    display: flex;
+    min-height: 20px;
+    max-height: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.text-box {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 13px;
+}
+.text-box1 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font-size: 13px;
+    text-decoration: none;
+}
+.text-box1:hover {
+    text-decoration: underline;
+}
+.footer {
+    display: flex;
+    position: absolute;
+    background-color: #f2f2f2;
+    min-height: 93px;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+}   
+.footer1 {
+    display: flex;
+    justify-self: flex-start;
+    justify-content: center;
+    flex: 1;
+    width: auto;
+    max-height: 50px;
+}
+.footer2 {
+    display: flex;
+    flex: 1;
+    width: auto;
+    justify-content: flex-start;
+}
+.carbon-text {
+    color: #70757a;
+    text-decoration: none;
+}
+.carbon-text:hover {
+    text-decoration: underline;
+}
+.leaf-image {
+    height:14px;
+    margin-right: 4px;
+    margin-top: 11px;
+}
+.footer-space {
+    flex: 1.5;
+}
+.footer-space2 {
+    flex: 1.75;
+}
+.bottom-links {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 32px;
+    text-decoration: none;
+}
+.bottom-links-a{
+    text-decoration: none;
+    color: #70757a;
+}
+.bottom-links:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
